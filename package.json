@@ -1,0 +1,15 @@
+{
+  "name": "bun-turbo-prune-repro",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "packageManager": "bun@1.2.11",
+  "devDependencies": {
+    "turbo": "^2.5.2"
+  },
+  "dependencies": {
+    "typescript": "^5.8.3"
+  }
+}
